@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "c:\\Users\\farshid\\Desktop\\Simple_DDD\\Simple_DDD.API\\Simple_DDD.API.csproj": {}
+    "C:\\Users\\farshid\\Desktop\\Simple_DDD\\Simple_DDD.API\\Simple_DDD.API.csproj": {}
   },
   "projects": {
-    "c:\\Users\\farshid\\Desktop\\Simple_DDD\\Simple_DDD.API\\Simple_DDD.API.csproj": {
+    "C:\\Users\\farshid\\Desktop\\Simple_DDD\\Simple_DDD.API\\Simple_DDD.API.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "c:\\Users\\farshid\\Desktop\\Simple_DDD\\Simple_DDD.API\\Simple_DDD.API.csproj",
+        "projectUniqueName": "C:\\Users\\farshid\\Desktop\\Simple_DDD\\Simple_DDD.API\\Simple_DDD.API.csproj",
         "projectName": "Simple_DDD.API",
-        "projectPath": "c:\\Users\\farshid\\Desktop\\Simple_DDD\\Simple_DDD.API\\Simple_DDD.API.csproj",
+        "projectPath": "C:\\Users\\farshid\\Desktop\\Simple_DDD\\Simple_DDD.API\\Simple_DDD.API.csproj",
         "packagesPath": "C:\\Users\\farshid\\.nuget\\packages\\",
-        "outputPath": "c:\\Users\\farshid\\Desktop\\Simple_DDD\\Simple_DDD.API\\obj\\",
+        "outputPath": "C:\\Users\\farshid\\Desktop\\Simple_DDD\\Simple_DDD.API\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\farshid\\AppData\\Roaming\\NuGet\\NuGet.Config"
@@ -27,11 +27,11 @@
           "net7.0": {
             "targetAlias": "net7.0",
             "projectReferences": {
-              "c:\\Users\\farshid\\Desktop\\Simple_DDD\\Simple_DDD.Domain\\Simple_DDD.Domain.csproj": {
-                "projectPath": "c:\\Users\\farshid\\Desktop\\Simple_DDD\\Simple_DDD.Domain\\Simple_DDD.Domain.csproj"
+              "C:\\Users\\farshid\\Desktop\\Simple_DDD\\Simple_DDD.Domain\\Simple_DDD.Domain.csproj": {
+                "projectPath": "C:\\Users\\farshid\\Desktop\\Simple_DDD\\Simple_DDD.Domain\\Simple_DDD.Domain.csproj"
               },
-              "c:\\Users\\farshid\\Desktop\\Simple_DDD\\Simple_DDD.Infrastructure\\Simple_DDD.Infrastructure.csproj": {
-                "projectPath": "c:\\Users\\farshid\\Desktop\\Simple_DDD\\Simple_DDD.Infrastructure\\Simple_DDD.Infrastructure.csproj"
+              "C:\\Users\\farshid\\Desktop\\Simple_DDD\\Simple_DDD.Infrastructure\\Simple_DDD.Infrastructure.csproj": {
+                "projectPath": "C:\\Users\\farshid\\Desktop\\Simple_DDD\\Simple_DDD.Infrastructure\\Simple_DDD.Infrastructure.csproj"
               }
             }
           }
@@ -46,6 +46,10 @@
         "net7.0": {
           "targetAlias": "net7.0",
           "dependencies": {
+            "AutoMapper.Extensions.Microsoft.DependencyInjection": {
+              "target": "Package",
+              "version": "[12.0.1, )"
+            },
             "Microsoft.AspNetCore.Authentication.JwtBearer": {
               "target": "Package",
               "version": "[7.0.13, )"
@@ -53,6 +57,20 @@
             "Microsoft.AspNetCore.OpenApi": {
               "target": "Package",
               "version": "[7.0.8, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[7.0.13, )"
+            },
+            "Microsoft.EntityFrameworkCore.Sqlite": {
+              "target": "Package",
+              "version": "[7.0.13, )"
+            },
+            "Serilog.AspNetCore": {
+              "target": "Package",
+              "version": "[7.0.0, )"
             },
             "Swashbuckle.AspNetCore": {
               "target": "Package",
@@ -82,14 +100,14 @@
         }
       }
     },
-    "c:\\Users\\farshid\\Desktop\\Simple_DDD\\Simple_DDD.Domain\\Simple_DDD.Domain.csproj": {
+    "C:\\Users\\farshid\\Desktop\\Simple_DDD\\Simple_DDD.Domain\\Simple_DDD.Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "c:\\Users\\farshid\\Desktop\\Simple_DDD\\Simple_DDD.Domain\\Simple_DDD.Domain.csproj",
+        "projectUniqueName": "C:\\Users\\farshid\\Desktop\\Simple_DDD\\Simple_DDD.Domain\\Simple_DDD.Domain.csproj",
         "projectName": "Simple_DDD.Domain",
-        "projectPath": "c:\\Users\\farshid\\Desktop\\Simple_DDD\\Simple_DDD.Domain\\Simple_DDD.Domain.csproj",
+        "projectPath": "C:\\Users\\farshid\\Desktop\\Simple_DDD\\Simple_DDD.Domain\\Simple_DDD.Domain.csproj",
         "packagesPath": "C:\\Users\\farshid\\.nuget\\packages\\",
-        "outputPath": "c:\\Users\\farshid\\Desktop\\Simple_DDD\\Simple_DDD.Domain\\obj\\",
+        "outputPath": "C:\\Users\\farshid\\Desktop\\Simple_DDD\\Simple_DDD.Domain\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\farshid\\AppData\\Roaming\\NuGet\\NuGet.Config"
@@ -135,14 +153,14 @@
         }
       }
     },
-    "c:\\Users\\farshid\\Desktop\\Simple_DDD\\Simple_DDD.Infrastructure\\Simple_DDD.Infrastructure.csproj": {
+    "C:\\Users\\farshid\\Desktop\\Simple_DDD\\Simple_DDD.Infrastructure\\Simple_DDD.Infrastructure.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "c:\\Users\\farshid\\Desktop\\Simple_DDD\\Simple_DDD.Infrastructure\\Simple_DDD.Infrastructure.csproj",
+        "projectUniqueName": "C:\\Users\\farshid\\Desktop\\Simple_DDD\\Simple_DDD.Infrastructure\\Simple_DDD.Infrastructure.csproj",
         "projectName": "Simple_DDD.Infrastructure",
-        "projectPath": "c:\\Users\\farshid\\Desktop\\Simple_DDD\\Simple_DDD.Infrastructure\\Simple_DDD.Infrastructure.csproj",
+        "projectPath": "C:\\Users\\farshid\\Desktop\\Simple_DDD\\Simple_DDD.Infrastructure\\Simple_DDD.Infrastructure.csproj",
         "packagesPath": "C:\\Users\\farshid\\.nuget\\packages\\",
-        "outputPath": "c:\\Users\\farshid\\Desktop\\Simple_DDD\\Simple_DDD.Infrastructure\\obj\\",
+        "outputPath": "C:\\Users\\farshid\\Desktop\\Simple_DDD\\Simple_DDD.Infrastructure\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\farshid\\AppData\\Roaming\\NuGet\\NuGet.Config"
@@ -157,8 +175,8 @@
           "net7.0": {
             "targetAlias": "net7.0",
             "projectReferences": {
-              "c:\\Users\\farshid\\Desktop\\Simple_DDD\\Simple_DDD.Domain\\Simple_DDD.Domain.csproj": {
-                "projectPath": "c:\\Users\\farshid\\Desktop\\Simple_DDD\\Simple_DDD.Domain\\Simple_DDD.Domain.csproj"
+              "C:\\Users\\farshid\\Desktop\\Simple_DDD\\Simple_DDD.Domain\\Simple_DDD.Domain.csproj": {
+                "projectPath": "C:\\Users\\farshid\\Desktop\\Simple_DDD\\Simple_DDD.Domain\\Simple_DDD.Domain.csproj"
               }
             }
           }
@@ -172,6 +190,28 @@
       "frameworks": {
         "net7.0": {
           "targetAlias": "net7.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[7.0.13, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[7.0.13, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[7.0.13, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[7.0.13, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",

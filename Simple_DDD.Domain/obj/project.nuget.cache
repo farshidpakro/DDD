@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "D4gOyhT3ApQen0Ydbt9zppuErHdFxTA0hFqyjKNfFTOTs02Ub9HUFIugTJupjqxSz9AK3JJTZx1Mhq3+3/2YdA==",
+  "dgSpecHash": "Nhx79v9eKkn+1y2dJScckQ+qy+5zIKxXJ8mKUMzZCcoGkIn3vgeiN0Z6K2Ifu6fQca5VTV02y2AmLh6xDQxyag==",
   "success": true,
-  "projectFilePath": "c:\\Users\\farshid\\Desktop\\Simple_DDD\\Simple_DDD.Domain\\Simple_DDD.Domain.csproj",
+  "projectFilePath": "C:\\Users\\farshid\\Desktop\\Simple_DDD\\Simple_DDD.Domain\\Simple_DDD.Domain.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

@@ -13,3 +13,5 @@ C:\Users\farshid\Desktop\Simple_DDD\Simple_DDD.Infrastructure\obj\Debug\net7.0\S
 C:\Users\farshid\Desktop\Simple_DDD\Simple_DDD.Infrastructure\obj\Debug\net7.0\refint\Simple_DDD.Infrastructure.dll
 C:\Users\farshid\Desktop\Simple_DDD\Simple_DDD.Infrastructure\obj\Debug\net7.0\Simple_DDD.Infrastructure.pdb
 C:\Users\farshid\Desktop\Simple_DDD\Simple_DDD.Infrastructure\obj\Debug\net7.0\ref\Simple_DDD.Infrastructure.dll
+C:\Users\farshid\Desktop\Simple_DDD\Simple_DDD.Infrastructure\bin\Debug\net7.0\Simple_DDD.Infrastructure.runtimeconfig.json
+C:\Users\farshid\Desktop\Simple_DDD\Simple_DDD.Infrastructure\obj\Debug\net7.0\Simple_DDD.Infrastructure.genruntimeconfig.cache
