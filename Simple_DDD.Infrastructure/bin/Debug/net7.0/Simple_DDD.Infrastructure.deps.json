@@ -1,0 +1,36 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v7.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v7.0": {
+      "Simple_DDD.Infrastructure/1.0.0": {
+        "dependencies": {
+          "Simple_DDD.Domain": "1.0.0"
+        },
+        "runtime": {
+          "Simple_DDD.Infrastructure.dll": {}
+        }
+      },
+      "Simple_DDD.Domain/1.0.0": {
+        "runtime": {
+          "Simple_DDD.Domain.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Simple_DDD.Infrastructure/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Simple_DDD.Domain/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

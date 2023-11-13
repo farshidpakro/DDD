@@ -1,0 +1,12 @@
+C:\Users\farshid\Desktop\Simple_DDD\Simple_DDD.Domain\bin\Debug\net7.0\Simple_DDD.Domain.deps.json
+C:\Users\farshid\Desktop\Simple_DDD\Simple_DDD.Domain\bin\Debug\net7.0\Simple_DDD.Domain.dll
+C:\Users\farshid\Desktop\Simple_DDD\Simple_DDD.Domain\bin\Debug\net7.0\Simple_DDD.Domain.pdb
+C:\Users\farshid\Desktop\Simple_DDD\Simple_DDD.Domain\obj\Debug\net7.0\Simple_DDD.Domain.csproj.AssemblyReference.cache
+C:\Users\farshid\Desktop\Simple_DDD\Simple_DDD.Domain\obj\Debug\net7.0\Simple_DDD.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\farshid\Desktop\Simple_DDD\Simple_DDD.Domain\obj\Debug\net7.0\Simple_DDD.Domain.AssemblyInfoInputs.cache
+C:\Users\farshid\Desktop\Simple_DDD\Simple_DDD.Domain\obj\Debug\net7.0\Simple_DDD.Domain.AssemblyInfo.cs
+C:\Users\farshid\Desktop\Simple_DDD\Simple_DDD.Domain\obj\Debug\net7.0\Simple_DDD.Domain.csproj.CoreCompileInputs.cache
+C:\Users\farshid\Desktop\Simple_DDD\Simple_DDD.Domain\obj\Debug\net7.0\Simple_DDD.Domain.dll
+C:\Users\farshid\Desktop\Simple_DDD\Simple_DDD.Domain\obj\Debug\net7.0\refint\Simple_DDD.Domain.dll
+C:\Users\farshid\Desktop\Simple_DDD\Simple_DDD.Domain\obj\Debug\net7.0\Simple_DDD.Domain.pdb
+C:\Users\farshid\Desktop\Simple_DDD\Simple_DDD.Domain\obj\Debug\net7.0\ref\Simple_DDD.Domain.dll

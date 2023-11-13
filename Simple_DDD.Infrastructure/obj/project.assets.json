@@ -1,0 +1,89 @@
+{
+  "version": 3,
+  "targets": {
+    "net7.0": {
+      "Simple_DDD.Domain/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v7.0",
+        "compile": {
+          "bin/placeholder/Simple_DDD.Domain.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Simple_DDD.Domain.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Simple_DDD.Domain/1.0.0": {
+      "type": "project",
+      "path": "../Simple_DDD.Domain/Simple_DDD.Domain.csproj",
+      "msbuildProject": "../Simple_DDD.Domain/Simple_DDD.Domain.csproj"
+    }
+  },
+  "projectFileDependencyGroups": {
+    "net7.0": [
+      "Simple_DDD.Domain >= 1.0.0"
+    ]
+  },
+  "packageFolders": {
+    "C:\\Users\\farshid\\.nuget\\packages\\": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "c:\\Users\\farshid\\Desktop\\Simple_DDD\\Simple_DDD.Infrastructure\\Simple_DDD.Infrastructure.csproj",
+      "projectName": "Simple_DDD.Infrastructure",
+      "projectPath": "c:\\Users\\farshid\\Desktop\\Simple_DDD\\Simple_DDD.Infrastructure\\Simple_DDD.Infrastructure.csproj",
+      "packagesPath": "C:\\Users\\farshid\\.nuget\\packages\\",
+      "outputPath": "c:\\Users\\farshid\\Desktop\\Simple_DDD\\Simple_DDD.Infrastructure\\obj\\",
+      "projectStyle": "PackageReference",
+      "configFilePaths": [
+        "C:\\Users\\farshid\\AppData\\Roaming\\NuGet\\NuGet.Config"
+      ],
+      "originalTargetFrameworks": [
+        "net7.0"
+      ],
+      "sources": {
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "projectReferences": {
+            "c:\\Users\\farshid\\Desktop\\Simple_DDD\\Simple_DDD.Domain\\Simple_DDD.Domain.csproj": {
+              "projectPath": "c:\\Users\\farshid\\Desktop\\Simple_DDD\\Simple_DDD.Domain\\Simple_DDD.Domain.csproj"
+            }
+          }
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      }
+    },
+    "frameworks": {
+      "net7.0": {
+        "targetAlias": "net7.0",
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48",
+          "net481"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "frameworkReferences": {
+          "Microsoft.NETCore.App": {
+            "privateAssets": "all"
+          }
+        },
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.305\\RuntimeIdentifierGraph.json"
+      }
+    }
+  }
+}
