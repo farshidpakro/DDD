@@ -30,7 +30,10 @@ builder.Services.AddScoped<ICurrentUserServices, CurrentUserServices>();
 var folder = Environment.SpecialFolder.LocalApplicationData;
 var path = Environment.GetFolderPath(folder);
 string DbPath = System.IO.Path.Join(path, "Application.db");
-builder.Services.AddDbContext<ApplicationDbContext>(options => options.UseSqlite($"Data Source={DbPath};Cache=Shared"));
+//builder.Services.AddDbContext<ApplicationDbContext>(options => options.UseSqlite($"Data Source={DbPath};Cache=Shared"));
+var connectionString = builder.Configuration.GetConnectionString("DefaultConnection") ?? throw new InvalidOperationException("Connection string 'DefaultConnection' not found.");
+builder.Services.AddDbContext<ApplicationDbContext>(options =>
+    options.UseSqlite(connectionString));
 builder.Services.AddSwaggerGen(opt =>
 {
     opt.SwaggerDoc("v1", new OpenApiInfo { Title = "MyAPI", Version = "v1" });

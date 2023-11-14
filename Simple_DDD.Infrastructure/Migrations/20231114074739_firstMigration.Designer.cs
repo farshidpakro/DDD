@@ -10,7 +10,7 @@ using Simple_DDD.Infrastructure.Context;
 namespace Simple_DDD.Infrastructure.Migrations
 {
     [DbContext(typeof(ApplicationDbContext))]
-    [Migration("20231113181817_firstMigration")]
+    [Migration("20231114074739_firstMigration")]
     partial class firstMigration
     {
         /// <inheritdoc />
